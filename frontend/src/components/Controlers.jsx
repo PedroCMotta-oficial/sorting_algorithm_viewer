@@ -1,8 +1,8 @@
 export default function Controlers() {
   return (
-    <div className="w-250 bg-white flex flex-col items-center justify-center">
+    <div className="w-150 flex flex-col items-center justify-center">
       {/* Selecionador do Algoritmo */}
-      <select className="w-80 h-10 bg-gray-900 flex items-center justify-center rounded mb-4">
+      <select className="w-50 h-10 bg-gray-900 flex items-center justify-center rounded">
         <option value="bubble">Bubble Sort</option>
         <option value="quick">Quick Sort</option>
         <option value="merge">Merge Sort</option>
